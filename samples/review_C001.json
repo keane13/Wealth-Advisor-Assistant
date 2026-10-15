@@ -1,0 +1,22 @@
+{
+  "reviewer": "j.rivera",
+  "decisions": [
+    {
+      "finding_id": "F-49689728a0",
+      "action": "dismiss",
+      "remember": true,
+      "note": "Holiday-apartment deposit. Client told us on 2026-08-02 (see CRM note) and confirmed by phone."
+    },
+    {
+      "finding_id": "F-20b8d0fb87",
+      "action": "confirm",
+      "note": "Not discussed before. Raise at the next meeting."
+    },
+    {
+      "rule": "concentration",
+      "action": "set_severity",
+      "severity": "critical",
+      "note": "NVDA is close to 40% of the portfolio. Prioritise the diversification plan."
+    }
+  ]
+}

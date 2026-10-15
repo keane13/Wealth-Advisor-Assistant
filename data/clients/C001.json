@@ -1,0 +1,1962 @@
+{
+  "client_id": "C001",
+  "name": "Ayu Pratama",
+  "base_currency": "USD",
+  "as_of": "2026-09-30",
+  "accounts": [
+    {
+      "account_id": "C001-CHK",
+      "type": "checking",
+      "balance": 14200.0
+    },
+    {
+      "account_id": "C001-SAV",
+      "type": "savings",
+      "balance": 26500.0
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "NVDA",
+      "asset_class": "equity",
+      "sector": "Technology",
+      "market_value": 310000.0
+    },
+    {
+      "symbol": "VTI",
+      "asset_class": "equity",
+      "sector": "Diversified",
+      "market_value": 280000.0
+    },
+    {
+      "symbol": "BND",
+      "asset_class": "bond",
+      "sector": "Diversified",
+      "market_value": 150000.0
+    },
+    {
+      "symbol": "AAPL",
+      "asset_class": "equity",
+      "sector": "Technology",
+      "market_value": 60000.0
+    },
+    {
+      "symbol": "MMF",
+      "asset_class": "cash",
+      "market_value": 20000.0
+    }
+  ],
+  "liabilities": [
+    {
+      "type": "mortgage",
+      "balance": 385000.0,
+      "monthly_payment": 2100.0
+    },
+    {
+      "type": "auto_loan",
+      "balance": 14000.0,
+      "monthly_payment": 450.0
+    }
+  ],
+  "transactions": [
+    {
+      "id": "C001-T0001",
+      "date": "2026-04-01",
+      "amount": 6000.0,
+      "merchant": "Acme Corp Payroll",
+      "category": "salary",
+      "channel": "ach",
+      "description": "Acme Corp Payroll"
+    },
+    {
+      "id": "C001-T0003",
+      "date": "2026-04-03",
+      "amount": -2100.0,
+      "merchant": "First Home Mortgage",
+      "category": "housing",
+      "channel": "ach",
+      "description": "First Home Mortgage"
+    },
+    {
+      "id": "C001-T0010",
+      "date": "2026-04-04",
+      "amount": -118.54,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C001-T0023",
+      "date": "2026-04-04",
+      "amount": -45.58,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C001-T0024",
+      "date": "2026-04-04",
+      "amount": -62.29,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C001-T0004",
+      "date": "2026-04-05",
+      "amount": -450.0,
+      "merchant": "AutoFinance Co",
+      "category": "loan_payment",
+      "channel": "ach",
+      "description": "AutoFinance Co"
+    },
+    {
+      "id": "C001-T0007",
+      "date": "2026-04-05",
+      "amount": -128.3,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0005",
+      "date": "2026-04-08",
+      "amount": -240.0,
+      "merchant": "SafeLife Insurance",
+      "category": "insurance",
+      "channel": "ach",
+      "description": "SafeLife Insurance"
+    },
+    {
+      "id": "C001-T0029",
+      "date": "2026-04-08",
+      "amount": -193.62,
+      "merchant": "Amazon",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Amazon"
+    },
+    {
+      "id": "C001-T0008",
+      "date": "2026-04-09",
+      "amount": -74.15,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C001-T0021",
+      "date": "2026-04-10",
+      "amount": -84.86,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C001-T0026",
+      "date": "2026-04-10",
+      "amount": -48.52,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C001-T0014",
+      "date": "2026-04-11",
+      "amount": -63.67,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0031",
+      "date": "2026-04-12",
+      "amount": -223.9,
+      "merchant": "City Power & Water",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "City Power & Water"
+    },
+    {
+      "id": "C001-T0011",
+      "date": "2026-04-14",
+      "amount": -132.89,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0030",
+      "date": "2026-04-14",
+      "amount": -176.24,
+      "merchant": "Amazon",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Amazon"
+    },
+    {
+      "id": "C001-T0002",
+      "date": "2026-04-15",
+      "amount": 6000.0,
+      "merchant": "Acme Corp Payroll",
+      "category": "salary",
+      "channel": "ach",
+      "description": "Acme Corp Payroll"
+    },
+    {
+      "id": "C001-T0006",
+      "date": "2026-04-16",
+      "amount": -1500.0,
+      "merchant": "Transfer to Savings",
+      "category": "internal_transfer",
+      "channel": "transfer",
+      "description": "Transfer to Savings"
+    },
+    {
+      "id": "C001-T0009",
+      "date": "2026-04-16",
+      "amount": -138.19,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0025",
+      "date": "2026-04-17",
+      "amount": -64.9,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C001-T0019",
+      "date": "2026-04-18",
+      "amount": -36.32,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C001-T0032",
+      "date": "2026-04-18",
+      "amount": -85.0,
+      "merchant": "Telco Mobile",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "Telco Mobile"
+    },
+    {
+      "id": "C001-T0028",
+      "date": "2026-04-19",
+      "amount": -217.72,
+      "merchant": "Amazon",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Amazon"
+    },
+    {
+      "id": "C001-T0033",
+      "date": "2026-04-20",
+      "amount": -15.99,
+      "merchant": "StreamFlix",
+      "category": "subscriptions",
+      "channel": "card",
+      "description": "StreamFlix"
+    },
+    {
+      "id": "C001-T0015",
+      "date": "2026-04-21",
+      "amount": -124.97,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C001-T0016",
+      "date": "2026-04-22",
+      "amount": -35.16,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C001-T0020",
+      "date": "2026-04-22",
+      "amount": -35.31,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C001-T0034",
+      "date": "2026-04-22",
+      "amount": -48.12,
+      "merchant": "BetNow Online",
+      "category": "gambling",
+      "channel": "card",
+      "description": "BetNow Online"
+    },
+    {
+      "id": "C001-T0012",
+      "date": "2026-04-23",
+      "amount": -113.45,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C001-T0017",
+      "date": "2026-04-24",
+      "amount": -22.03,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C001-T0018",
+      "date": "2026-04-25",
+      "amount": -50.65,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C001-T0013",
+      "date": "2026-04-26",
+      "amount": -87.45,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0022",
+      "date": "2026-04-27",
+      "amount": -84.14,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C001-T0027",
+      "date": "2026-04-28",
+      "amount": -237.0,
+      "merchant": "Amazon",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Amazon"
+    },
+    {
+      "id": "C001-T0035",
+      "date": "2026-05-01",
+      "amount": 6000.0,
+      "merchant": "Acme Corp Payroll",
+      "category": "salary",
+      "channel": "ach",
+      "description": "Acme Corp Payroll"
+    },
+    {
+      "id": "C001-T0056",
+      "date": "2026-05-02",
+      "amount": -53.68,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C001-T0064",
+      "date": "2026-05-02",
+      "amount": -215.18,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C001-T0037",
+      "date": "2026-05-03",
+      "amount": -2100.0,
+      "merchant": "First Home Mortgage",
+      "category": "housing",
+      "channel": "ach",
+      "description": "First Home Mortgage"
+    },
+    {
+      "id": "C001-T0038",
+      "date": "2026-05-05",
+      "amount": -450.0,
+      "merchant": "AutoFinance Co",
+      "category": "loan_payment",
+      "channel": "ach",
+      "description": "AutoFinance Co"
+    },
+    {
+      "id": "C001-T0048",
+      "date": "2026-05-06",
+      "amount": -120.27,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0062",
+      "date": "2026-05-06",
+      "amount": -219.42,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C001-T0039",
+      "date": "2026-05-08",
+      "amount": -240.0,
+      "merchant": "SafeLife Insurance",
+      "category": "insurance",
+      "channel": "ach",
+      "description": "SafeLife Insurance"
+    },
+    {
+      "id": "C001-T0050",
+      "date": "2026-05-08",
+      "amount": -48.31,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C001-T0052",
+      "date": "2026-05-09",
+      "amount": -66.15,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C001-T0044",
+      "date": "2026-05-12",
+      "amount": -118.76,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0059",
+      "date": "2026-05-12",
+      "amount": -40.05,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C001-T0065",
+      "date": "2026-05-12",
+      "amount": -185.64,
+      "merchant": "City Power & Water",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "City Power & Water"
+    },
+    {
+      "id": "C001-T0036",
+      "date": "2026-05-15",
+      "amount": 6000.0,
+      "merchant": "Acme Corp Payroll",
+      "category": "salary",
+      "channel": "ach",
+      "description": "Acme Corp Payroll"
+    },
+    {
+      "id": "C001-T0042",
+      "date": "2026-05-15",
+      "amount": -139.65,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0060",
+      "date": "2026-05-15",
+      "amount": -58.0,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C001-T0040",
+      "date": "2026-05-16",
+      "amount": -1500.0,
+      "merchant": "Transfer to Savings",
+      "category": "internal_transfer",
+      "channel": "transfer",
+      "description": "Transfer to Savings"
+    },
+    {
+      "id": "C001-T0045",
+      "date": "2026-05-16",
+      "amount": -65.22,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C001-T0058",
+      "date": "2026-05-16",
+      "amount": -64.4,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C001-T0054",
+      "date": "2026-05-17",
+      "amount": -76.64,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C001-T0066",
+      "date": "2026-05-18",
+      "amount": -85.0,
+      "merchant": "Telco Mobile",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "Telco Mobile"
+    },
+    {
+      "id": "C001-T0047",
+      "date": "2026-05-19",
+      "amount": -107.23,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0057",
+      "date": "2026-05-19",
+      "amount": -56.63,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C001-T0067",
+      "date": "2026-05-20",
+      "amount": -15.99,
+      "merchant": "StreamFlix",
+      "category": "subscriptions",
+      "channel": "card",
+      "description": "StreamFlix"
+    },
+    {
+      "id": "C001-T0061",
+      "date": "2026-05-21",
+      "amount": -68.99,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C001-T0041",
+      "date": "2026-05-22",
+      "amount": -148.59,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0068",
+      "date": "2026-05-22",
+      "amount": -54.72,
+      "merchant": "BetNow Online",
+      "category": "gambling",
+      "channel": "card",
+      "description": "BetNow Online"
+    },
+    {
+      "id": "C001-T0053",
+      "date": "2026-05-24",
+      "amount": -20.4,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C001-T0043",
+      "date": "2026-05-25",
+      "amount": -79.64,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C001-T0049",
+      "date": "2026-05-25",
+      "amount": -83.94,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C001-T0055",
+      "date": "2026-05-25",
+      "amount": -59.3,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C001-T0063",
+      "date": "2026-05-26",
+      "amount": -217.28,
+      "merchant": "Amazon",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Amazon"
+    },
+    {
+      "id": "C001-T0046",
+      "date": "2026-05-28",
+      "amount": -177.98,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C001-T0051",
+      "date": "2026-05-28",
+      "amount": -60.45,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C001-T0069",
+      "date": "2026-06-01",
+      "amount": 6000.0,
+      "merchant": "Acme Corp Payroll",
+      "category": "salary",
+      "channel": "ach",
+      "description": "Acme Corp Payroll"
+    },
+    {
+      "id": "C001-T0082",
+      "date": "2026-06-01",
+      "amount": -97.44,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C001-T0088",
+      "date": "2026-06-02",
+      "amount": -70.32,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C001-T0096",
+      "date": "2026-06-02",
+      "amount": -97.41,
+      "merchant": "Uniqlo",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Uniqlo"
+    },
+    {
+      "id": "C001-T0071",
+      "date": "2026-06-03",
+      "amount": -2100.0,
+      "merchant": "First Home Mortgage",
+      "category": "housing",
+      "channel": "ach",
+      "description": "First Home Mortgage"
+    },
+    {
+      "id": "C001-T0084",
+      "date": "2026-06-04",
+      "amount": -37.74,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C001-T0072",
+      "date": "2026-06-05",
+      "amount": -450.0,
+      "merchant": "AutoFinance Co",
+      "category": "loan_payment",
+      "channel": "ach",
+      "description": "AutoFinance Co"
+    },
+    {
+      "id": "C001-T0077",
+      "date": "2026-06-06",
+      "amount": -101.33,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0078",
+      "date": "2026-06-06",
+      "amount": -79.16,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C001-T0079",
+      "date": "2026-06-06",
+      "amount": -138.8,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C001-T0073",
+      "date": "2026-06-08",
+      "amount": -240.0,
+      "merchant": "SafeLife Insurance",
+      "category": "insurance",
+      "channel": "ach",
+      "description": "SafeLife Insurance"
+    },
+    {
+      "id": "C001-T0076",
+      "date": "2026-06-08",
+      "amount": -92.24,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C001-T0087",
+      "date": "2026-06-08",
+      "amount": -21.25,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C001-T0092",
+      "date": "2026-06-08",
+      "amount": -55.72,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C001-T0097",
+      "date": "2026-06-10",
+      "amount": -231.78,
+      "merchant": "Amazon",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Amazon"
+    },
+    {
+      "id": "C001-T0081",
+      "date": "2026-06-11",
+      "amount": -119.58,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0099",
+      "date": "2026-06-12",
+      "amount": -200.19,
+      "merchant": "City Power & Water",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "City Power & Water"
+    },
+    {
+      "id": "C001-T0093",
+      "date": "2026-06-13",
+      "amount": -60.25,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C001-T0083",
+      "date": "2026-06-14",
+      "amount": -155.54,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C001-T0086",
+      "date": "2026-06-14",
+      "amount": -77.19,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C001-T0090",
+      "date": "2026-06-14",
+      "amount": -58.13,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C001-T0070",
+      "date": "2026-06-15",
+      "amount": 6000.0,
+      "merchant": "Acme Corp Payroll",
+      "category": "salary",
+      "channel": "ach",
+      "description": "Acme Corp Payroll"
+    },
+    {
+      "id": "C001-T0075",
+      "date": "2026-06-15",
+      "amount": -61.75,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C001-T0089",
+      "date": "2026-06-15",
+      "amount": -69.32,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C001-T0074",
+      "date": "2026-06-16",
+      "amount": -1500.0,
+      "merchant": "Transfer to Savings",
+      "category": "internal_transfer",
+      "channel": "transfer",
+      "description": "Transfer to Savings"
+    },
+    {
+      "id": "C001-T0085",
+      "date": "2026-06-17",
+      "amount": -88.37,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C001-T0100",
+      "date": "2026-06-18",
+      "amount": -85.0,
+      "merchant": "Telco Mobile",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "Telco Mobile"
+    },
+    {
+      "id": "C001-T0101",
+      "date": "2026-06-20",
+      "amount": -15.99,
+      "merchant": "StreamFlix",
+      "category": "subscriptions",
+      "channel": "card",
+      "description": "StreamFlix"
+    },
+    {
+      "id": "C001-T0091",
+      "date": "2026-06-21",
+      "amount": -63.93,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C001-T0094",
+      "date": "2026-06-22",
+      "amount": -58.93,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C001-T0102",
+      "date": "2026-06-22",
+      "amount": -20.34,
+      "merchant": "BetNow Online",
+      "category": "gambling",
+      "channel": "card",
+      "description": "BetNow Online"
+    },
+    {
+      "id": "C001-T0080",
+      "date": "2026-06-23",
+      "amount": -95.34,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C001-T0095",
+      "date": "2026-06-24",
+      "amount": -95.69,
+      "merchant": "Uniqlo",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Uniqlo"
+    },
+    {
+      "id": "C001-T0098",
+      "date": "2026-06-24",
+      "amount": -64.81,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C001-T0103",
+      "date": "2026-07-01",
+      "amount": 6000.0,
+      "merchant": "Acme Corp Payroll",
+      "category": "salary",
+      "channel": "ach",
+      "description": "Acme Corp Payroll"
+    },
+    {
+      "id": "C001-T0118",
+      "date": "2026-07-01",
+      "amount": -30.99,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C001-T0105",
+      "date": "2026-07-03",
+      "amount": -2100.0,
+      "merchant": "First Home Mortgage",
+      "category": "housing",
+      "channel": "ach",
+      "description": "First Home Mortgage"
+    },
+    {
+      "id": "C001-T0125",
+      "date": "2026-07-03",
+      "amount": -43.99,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C001-T0106",
+      "date": "2026-07-05",
+      "amount": -450.0,
+      "merchant": "AutoFinance Co",
+      "category": "loan_payment",
+      "channel": "ach",
+      "description": "AutoFinance Co"
+    },
+    {
+      "id": "C001-T0131",
+      "date": "2026-07-05",
+      "amount": -157.59,
+      "merchant": "Uniqlo",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Uniqlo"
+    },
+    {
+      "id": "C001-T0112",
+      "date": "2026-07-07",
+      "amount": -101.63,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0107",
+      "date": "2026-07-08",
+      "amount": -240.0,
+      "merchant": "SafeLife Insurance",
+      "category": "insurance",
+      "channel": "ach",
+      "description": "SafeLife Insurance"
+    },
+    {
+      "id": "C001-T0124",
+      "date": "2026-07-08",
+      "amount": -24.57,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C001-T0129",
+      "date": "2026-07-10",
+      "amount": -81.74,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C001-T0120",
+      "date": "2026-07-11",
+      "amount": -50.05,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C001-T0132",
+      "date": "2026-07-11",
+      "amount": -38.61,
+      "merchant": "Uniqlo",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Uniqlo"
+    },
+    {
+      "id": "C001-T0128",
+      "date": "2026-07-12",
+      "amount": -50.17,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C001-T0133",
+      "date": "2026-07-12",
+      "amount": -210.42,
+      "merchant": "City Power & Water",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "City Power & Water"
+    },
+    {
+      "id": "C001-T0104",
+      "date": "2026-07-15",
+      "amount": 6000.0,
+      "merchant": "Acme Corp Payroll",
+      "category": "salary",
+      "channel": "ach",
+      "description": "Acme Corp Payroll"
+    },
+    {
+      "id": "C001-T0108",
+      "date": "2026-07-16",
+      "amount": -1500.0,
+      "merchant": "Transfer to Savings",
+      "category": "internal_transfer",
+      "channel": "transfer",
+      "description": "Transfer to Savings"
+    },
+    {
+      "id": "C001-T0116",
+      "date": "2026-07-16",
+      "amount": -62.06,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C001-T0122",
+      "date": "2026-07-18",
+      "amount": -44.07,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C001-T0123",
+      "date": "2026-07-18",
+      "amount": -53.91,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C001-T0126",
+      "date": "2026-07-18",
+      "amount": -46.39,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C001-T0134",
+      "date": "2026-07-18",
+      "amount": -85.0,
+      "merchant": "Telco Mobile",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "Telco Mobile"
+    },
+    {
+      "id": "C001-T0110",
+      "date": "2026-07-19",
+      "amount": -115.3,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C001-T0113",
+      "date": "2026-07-19",
+      "amount": -140.9,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C001-T0114",
+      "date": "2026-07-19",
+      "amount": -83.29,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0211",
+      "date": "2026-07-19",
+      "amount": -1150.0,
+      "merchant": "Le Grand Restaurant",
+      "category": "dining",
+      "channel": "card",
+      "description": "Le Grand Restaurant"
+    },
+    {
+      "id": "C001-T0111",
+      "date": "2026-07-20",
+      "amount": -121.06,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C001-T0127",
+      "date": "2026-07-20",
+      "amount": -55.18,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C001-T0135",
+      "date": "2026-07-20",
+      "amount": -15.99,
+      "merchant": "StreamFlix",
+      "category": "subscriptions",
+      "channel": "card",
+      "description": "StreamFlix"
+    },
+    {
+      "id": "C001-T0115",
+      "date": "2026-07-22",
+      "amount": -106.81,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C001-T0121",
+      "date": "2026-07-22",
+      "amount": -26.75,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C001-T0136",
+      "date": "2026-07-22",
+      "amount": -59.65,
+      "merchant": "BetNow Online",
+      "category": "gambling",
+      "channel": "card",
+      "description": "BetNow Online"
+    },
+    {
+      "id": "C001-T0130",
+      "date": "2026-07-25",
+      "amount": -239.95,
+      "merchant": "Amazon",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Amazon"
+    },
+    {
+      "id": "C001-T0119",
+      "date": "2026-07-26",
+      "amount": -89.09,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C001-T0109",
+      "date": "2026-07-28",
+      "amount": -64.55,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0117",
+      "date": "2026-07-28",
+      "amount": -108.28,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C001-T0137",
+      "date": "2026-08-01",
+      "amount": 6000.0,
+      "merchant": "Acme Corp Payroll",
+      "category": "salary",
+      "channel": "ach",
+      "description": "Acme Corp Payroll"
+    },
+    {
+      "id": "C001-T0161",
+      "date": "2026-08-01",
+      "amount": -40.32,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C001-T0139",
+      "date": "2026-08-03",
+      "amount": -2100.0,
+      "merchant": "First Home Mortgage",
+      "category": "housing",
+      "channel": "ach",
+      "description": "First Home Mortgage"
+    },
+    {
+      "id": "C001-T0145",
+      "date": "2026-08-03",
+      "amount": -128.49,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0164",
+      "date": "2026-08-03",
+      "amount": -230.95,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C001-T0144",
+      "date": "2026-08-04",
+      "amount": -133.82,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C001-T0152",
+      "date": "2026-08-04",
+      "amount": -77.83,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C001-T0140",
+      "date": "2026-08-05",
+      "amount": -450.0,
+      "merchant": "AutoFinance Co",
+      "category": "loan_payment",
+      "channel": "ach",
+      "description": "AutoFinance Co"
+    },
+    {
+      "id": "C001-T0143",
+      "date": "2026-08-05",
+      "amount": -159.42,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C001-T0155",
+      "date": "2026-08-06",
+      "amount": -67.66,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C001-T0153",
+      "date": "2026-08-07",
+      "amount": -36.77,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C001-T0160",
+      "date": "2026-08-07",
+      "amount": -59.56,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C001-T0141",
+      "date": "2026-08-08",
+      "amount": -240.0,
+      "merchant": "SafeLife Insurance",
+      "category": "insurance",
+      "channel": "ach",
+      "description": "SafeLife Insurance"
+    },
+    {
+      "id": "C001-T0149",
+      "date": "2026-08-09",
+      "amount": -72.93,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0147",
+      "date": "2026-08-12",
+      "amount": -166.89,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C001-T0167",
+      "date": "2026-08-12",
+      "amount": -249.41,
+      "merchant": "City Power & Water",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "City Power & Water"
+    },
+    {
+      "id": "C001-T0157",
+      "date": "2026-08-13",
+      "amount": -76.45,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C001-T0163",
+      "date": "2026-08-13",
+      "amount": -98.92,
+      "merchant": "Uniqlo",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Uniqlo"
+    },
+    {
+      "id": "C001-T0154",
+      "date": "2026-08-14",
+      "amount": -31.34,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C001-T0204",
+      "date": "2026-08-14",
+      "amount": -18500.0,
+      "merchant": "Overseas Property Escrow Ltd",
+      "category": "transfer",
+      "channel": "wire",
+      "description": "International wire - property deposit"
+    },
+    {
+      "id": "C001-T0138",
+      "date": "2026-08-15",
+      "amount": 6000.0,
+      "merchant": "Acme Corp Payroll",
+      "category": "salary",
+      "channel": "ach",
+      "description": "Acme Corp Payroll"
+    },
+    {
+      "id": "C001-T0165",
+      "date": "2026-08-15",
+      "amount": -54.5,
+      "merchant": "Uniqlo",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Uniqlo"
+    },
+    {
+      "id": "C001-T0142",
+      "date": "2026-08-16",
+      "amount": -1500.0,
+      "merchant": "Transfer to Savings",
+      "category": "internal_transfer",
+      "channel": "transfer",
+      "description": "Transfer to Savings"
+    },
+    {
+      "id": "C001-T0148",
+      "date": "2026-08-18",
+      "amount": -171.01,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C001-T0168",
+      "date": "2026-08-18",
+      "amount": -85.0,
+      "merchant": "Telco Mobile",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "Telco Mobile"
+    },
+    {
+      "id": "C001-T0146",
+      "date": "2026-08-19",
+      "amount": -69.81,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C001-T0169",
+      "date": "2026-08-20",
+      "amount": -15.99,
+      "merchant": "StreamFlix",
+      "category": "subscriptions",
+      "channel": "card",
+      "description": "StreamFlix"
+    },
+    {
+      "id": "C001-T0151",
+      "date": "2026-08-22",
+      "amount": -61.75,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C001-T0170",
+      "date": "2026-08-22",
+      "amount": -38.76,
+      "merchant": "BetNow Online",
+      "category": "gambling",
+      "channel": "card",
+      "description": "BetNow Online"
+    },
+    {
+      "id": "C001-T0159",
+      "date": "2026-08-23",
+      "amount": -54.31,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C001-T0156",
+      "date": "2026-08-24",
+      "amount": -79.15,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C001-T0162",
+      "date": "2026-08-24",
+      "amount": -57.9,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C001-T0166",
+      "date": "2026-08-26",
+      "amount": -165.92,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C001-T0150",
+      "date": "2026-08-27",
+      "amount": -95.49,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C001-T0158",
+      "date": "2026-08-27",
+      "amount": -40.58,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C001-T0171",
+      "date": "2026-09-01",
+      "amount": 6000.0,
+      "merchant": "Acme Corp Payroll",
+      "category": "salary",
+      "channel": "ach",
+      "description": "Acme Corp Payroll"
+    },
+    {
+      "id": "C001-T0191",
+      "date": "2026-09-01",
+      "amount": -40.36,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C001-T0200",
+      "date": "2026-09-02",
+      "amount": -201.54,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C001-T0173",
+      "date": "2026-09-03",
+      "amount": -2100.0,
+      "merchant": "First Home Mortgage",
+      "category": "housing",
+      "channel": "ach",
+      "description": "First Home Mortgage"
+    },
+    {
+      "id": "C001-T0180",
+      "date": "2026-09-03",
+      "amount": -178.01,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C001-T0181",
+      "date": "2026-09-03",
+      "amount": -138.24,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C001-T0187",
+      "date": "2026-09-03",
+      "amount": -37.16,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C001-T0194",
+      "date": "2026-09-03",
+      "amount": -55.28,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C001-T0207",
+      "date": "2026-09-03",
+      "amount": -600.0,
+      "merchant": "BetNow Online",
+      "category": "gambling",
+      "channel": "card",
+      "description": "BetNow Online"
+    },
+    {
+      "id": "C001-T0193",
+      "date": "2026-09-04",
+      "amount": -55.04,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C001-T0197",
+      "date": "2026-09-04",
+      "amount": -186.05,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C001-T0174",
+      "date": "2026-09-05",
+      "amount": -450.0,
+      "merchant": "AutoFinance Co",
+      "category": "loan_payment",
+      "channel": "ach",
+      "description": "AutoFinance Co"
+    },
+    {
+      "id": "C001-T0199",
+      "date": "2026-09-05",
+      "amount": -150.01,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C001-T0205",
+      "date": "2026-09-05",
+      "amount": -1249.99,
+      "merchant": "BestElectro",
+      "category": "shopping",
+      "channel": "card",
+      "description": "BestElectro"
+    },
+    {
+      "id": "C001-T0195",
+      "date": "2026-09-06",
+      "amount": -63.29,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C001-T0206",
+      "date": "2026-09-06",
+      "amount": -1249.99,
+      "merchant": "BestElectro",
+      "category": "shopping",
+      "channel": "card",
+      "description": "BestElectro"
+    },
+    {
+      "id": "C001-T0178",
+      "date": "2026-09-07",
+      "amount": -96.88,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0175",
+      "date": "2026-09-08",
+      "amount": -240.0,
+      "merchant": "SafeLife Insurance",
+      "category": "insurance",
+      "channel": "ach",
+      "description": "SafeLife Insurance"
+    },
+    {
+      "id": "C001-T0189",
+      "date": "2026-09-09",
+      "amount": -58.58,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C001-T0183",
+      "date": "2026-09-10",
+      "amount": -64.93,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0185",
+      "date": "2026-09-10",
+      "amount": -89.5,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C001-T0198",
+      "date": "2026-09-10",
+      "amount": -57.79,
+      "merchant": "Uniqlo",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Uniqlo"
+    },
+    {
+      "id": "C001-T0208",
+      "date": "2026-09-10",
+      "amount": -600.0,
+      "merchant": "BetNow Online",
+      "category": "gambling",
+      "channel": "card",
+      "description": "BetNow Online"
+    },
+    {
+      "id": "C001-T0182",
+      "date": "2026-09-11",
+      "amount": -172.89,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C001-T0184",
+      "date": "2026-09-11",
+      "amount": -155.13,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C001-T0177",
+      "date": "2026-09-12",
+      "amount": -91.09,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C001-T0179",
+      "date": "2026-09-12",
+      "amount": -69.76,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C001-T0201",
+      "date": "2026-09-12",
+      "amount": -244.31,
+      "merchant": "City Power & Water",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "City Power & Water"
+    },
+    {
+      "id": "C001-T0172",
+      "date": "2026-09-15",
+      "amount": 6000.0,
+      "merchant": "Acme Corp Payroll",
+      "category": "salary",
+      "channel": "ach",
+      "description": "Acme Corp Payroll"
+    },
+    {
+      "id": "C001-T0176",
+      "date": "2026-09-16",
+      "amount": -1500.0,
+      "merchant": "Transfer to Savings",
+      "category": "internal_transfer",
+      "channel": "transfer",
+      "description": "Transfer to Savings"
+    },
+    {
+      "id": "C001-T0192",
+      "date": "2026-09-16",
+      "amount": -52.82,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C001-T0209",
+      "date": "2026-09-17",
+      "amount": -600.0,
+      "merchant": "BetNow Online",
+      "category": "gambling",
+      "channel": "card",
+      "description": "BetNow Online"
+    },
+    {
+      "id": "C001-T0186",
+      "date": "2026-09-18",
+      "amount": -62.8,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C001-T0202",
+      "date": "2026-09-18",
+      "amount": -85.0,
+      "merchant": "Telco Mobile",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "Telco Mobile"
+    },
+    {
+      "id": "C001-T0203",
+      "date": "2026-09-20",
+      "amount": -15.99,
+      "merchant": "StreamFlix",
+      "category": "subscriptions",
+      "channel": "card",
+      "description": "StreamFlix"
+    },
+    {
+      "id": "C001-T0190",
+      "date": "2026-09-24",
+      "amount": -25.26,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C001-T0210",
+      "date": "2026-09-24",
+      "amount": -600.0,
+      "merchant": "BetNow Online",
+      "category": "gambling",
+      "channel": "card",
+      "description": "BetNow Online"
+    },
+    {
+      "id": "C001-T0188",
+      "date": "2026-09-26",
+      "amount": -37.06,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C001-T0196",
+      "date": "2026-09-27",
+      "amount": -65.97,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "C001": {
+    "client_id": "C001",
+    "risk_tolerance": "moderate",
+    "age": 41,
+    "investment_horizon_years": 20,
+    "goals": [
+      "Retire at 60",
+      "Children's university fund",
+      "Holiday home"
+    ],
+    "advisor": "J. Rivera",
+    "last_review_date": "2025-11-20",
+    "kyc_status": "verified",
+    "notes": [
+      "2026-08-02: Client mentioned paying a deposit on a holiday apartment abroad in August."
+    ]
+  },
+  "C002": {
+    "client_id": "C002",
+    "risk_tolerance": "conservative",
+    "age": 68,
+    "investment_horizon_years": 7,
+    "goals": [
+      "Stable retirement income",
+      "Leave inheritance"
+    ],
+    "advisor": "J. Rivera",
+    "last_review_date": "2025-03-10",
+    "kyc_status": "expired",
+    "notes": [
+      "Prefers phone contact.",
+      "Son holds power of attorney (pending documentation)."
+    ]
+  },
+  "C003": {
+    "client_id": "C003",
+    "risk_tolerance": "balanced",
+    "age": "thirty-four",
+    "goals": [
+      "Buy first home"
+    ],
+    "advisor": "A. Tan",
+    "kyc_status": "pending"
+  }
+}

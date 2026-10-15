@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wealth-advisor-assistant"
+version = "0.1.0"
+description = "A lightweight multi-agent Wealth Advisor Assistant (orchestrator + specialised agents)."
+readme = "README.md"
+requires-python = ">=3.10"
+# The core system is intentionally stdlib-only so it runs anywhere without setup.
+dependencies = []
+
+[project.optional-dependencies]
+llm = ["anthropic>=0.120"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+wealth-assistant = "wealth_assistant.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["wealth_assistant*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

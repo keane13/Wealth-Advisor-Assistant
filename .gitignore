@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.env
+
+# Runtime artefacts (samples/ holds the committed example output)
+logs/
+output/
+.memory/

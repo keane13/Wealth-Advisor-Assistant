@@ -1,0 +1,1867 @@
+{
+  "client_id": "C002",
+  "name": "Robert Hale",
+  "base_currency": "USD",
+  "as_of": "2026-09-30",
+  "accounts": [
+    {
+      "account_id": "C002-CHK",
+      "type": "checking",
+      "balance": 6800.0
+    },
+    {
+      "account_id": "C002-SAV",
+      "type": "savings",
+      "balance": 3000.0
+    }
+  ],
+  "holdings": [
+    {
+      "symbol": "VOO",
+      "asset_class": "equity",
+      "sector": "Diversified",
+      "market_value": 180000.0
+    },
+    {
+      "symbol": "QQQ",
+      "asset_class": "equity",
+      "sector": "Diversified",
+      "market_value": 140000.0
+    },
+    {
+      "symbol": "TSLA",
+      "asset_class": "equity",
+      "sector": "Consumer",
+      "market_value": 45000.0
+    },
+    {
+      "symbol": "BND",
+      "asset_class": "bond",
+      "sector": "Diversified",
+      "market_value": 50000.0
+    },
+    {
+      "symbol": "MMF",
+      "asset_class": "cash",
+      "market_value": 5000.0
+    }
+  ],
+  "liabilities": [
+    {
+      "type": "home_equity_line",
+      "balance": 40000.0,
+      "monthly_payment": 650.0
+    }
+  ],
+  "transactions": [
+    {
+      "id": "C002-T0001",
+      "date": "2026-04-01",
+      "amount": 4200.0,
+      "merchant": "State Pension Fund",
+      "category": "pension",
+      "channel": "ach",
+      "description": "State Pension Fund"
+    },
+    {
+      "id": "C002-T0009",
+      "date": "2026-04-02",
+      "amount": -103.8,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0002",
+      "date": "2026-04-03",
+      "amount": 2300.0,
+      "merchant": "Social Security",
+      "category": "pension",
+      "channel": "ach",
+      "description": "Social Security"
+    },
+    {
+      "id": "C002-T0006",
+      "date": "2026-04-03",
+      "amount": -56.15,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0003",
+      "date": "2026-04-06",
+      "amount": -650.0,
+      "merchant": "HomeEquity Bank",
+      "category": "loan_payment",
+      "channel": "ach",
+      "description": "HomeEquity Bank"
+    },
+    {
+      "id": "C002-T0016",
+      "date": "2026-04-06",
+      "amount": -59.24,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C002-T0018",
+      "date": "2026-04-06",
+      "amount": -29.57,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C002-T0017",
+      "date": "2026-04-08",
+      "amount": -21.67,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C002-T0004",
+      "date": "2026-04-09",
+      "amount": -410.0,
+      "merchant": "County Property Tax",
+      "category": "housing",
+      "channel": "ach",
+      "description": "County Property Tax"
+    },
+    {
+      "id": "C002-T0008",
+      "date": "2026-04-09",
+      "amount": -106.17,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0013",
+      "date": "2026-04-09",
+      "amount": -134.52,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0026",
+      "date": "2026-04-09",
+      "amount": -233.46,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C002-T0014",
+      "date": "2026-04-12",
+      "amount": -52.54,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C002-T0019",
+      "date": "2026-04-12",
+      "amount": -89.91,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C002-T0029",
+      "date": "2026-04-12",
+      "amount": -208.06,
+      "merchant": "City Power & Water",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "City Power & Water"
+    },
+    {
+      "id": "C002-T0015",
+      "date": "2026-04-13",
+      "amount": -49.65,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C002-T0010",
+      "date": "2026-04-14",
+      "amount": -109.29,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0032",
+      "date": "2026-04-14",
+      "amount": -1800,
+      "merchant": "Riverside Medical Group",
+      "category": "healthcare",
+      "channel": "card",
+      "description": "Riverside Medical Group"
+    },
+    {
+      "id": "C002-T0027",
+      "date": "2026-04-17",
+      "amount": -212.94,
+      "merchant": "Amazon",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Amazon"
+    },
+    {
+      "id": "C002-T0012",
+      "date": "2026-04-18",
+      "amount": -137.83,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0020",
+      "date": "2026-04-18",
+      "amount": -32.73,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C002-T0030",
+      "date": "2026-04-18",
+      "amount": -85.0,
+      "merchant": "Telco Mobile",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "Telco Mobile"
+    },
+    {
+      "id": "C002-T0031",
+      "date": "2026-04-20",
+      "amount": -15.99,
+      "merchant": "StreamFlix",
+      "category": "subscriptions",
+      "channel": "card",
+      "description": "StreamFlix"
+    },
+    {
+      "id": "C002-T0025",
+      "date": "2026-04-21",
+      "amount": -146.68,
+      "merchant": "Amazon",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Amazon"
+    },
+    {
+      "id": "C002-T0028",
+      "date": "2026-04-22",
+      "amount": -224.23,
+      "merchant": "Amazon",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Amazon"
+    },
+    {
+      "id": "C002-T0007",
+      "date": "2026-04-24",
+      "amount": -125.66,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C002-T0024",
+      "date": "2026-04-25",
+      "amount": -52.0,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C002-T0033",
+      "date": "2026-04-25",
+      "amount": -900,
+      "merchant": "HandyPro Home Repairs",
+      "category": "home_maintenance",
+      "channel": "card",
+      "description": "HandyPro Home Repairs"
+    },
+    {
+      "id": "C002-T0021",
+      "date": "2026-04-26",
+      "amount": -52.44,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C002-T0022",
+      "date": "2026-04-26",
+      "amount": -57.8,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C002-T0005",
+      "date": "2026-04-28",
+      "amount": -138.99,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0011",
+      "date": "2026-04-28",
+      "amount": -143.5,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C002-T0023",
+      "date": "2026-04-28",
+      "amount": -68.86,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C002-T0034",
+      "date": "2026-05-01",
+      "amount": 4200.0,
+      "merchant": "State Pension Fund",
+      "category": "pension",
+      "channel": "ach",
+      "description": "State Pension Fund"
+    },
+    {
+      "id": "C002-T0061",
+      "date": "2026-05-01",
+      "amount": -114.82,
+      "merchant": "Uniqlo",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Uniqlo"
+    },
+    {
+      "id": "C002-T0055",
+      "date": "2026-05-02",
+      "amount": -50.87,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C002-T0058",
+      "date": "2026-05-02",
+      "amount": -190.47,
+      "merchant": "Uniqlo",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Uniqlo"
+    },
+    {
+      "id": "C002-T0035",
+      "date": "2026-05-03",
+      "amount": 2300.0,
+      "merchant": "Social Security",
+      "category": "pension",
+      "channel": "ach",
+      "description": "Social Security"
+    },
+    {
+      "id": "C002-T0057",
+      "date": "2026-05-04",
+      "amount": -68.64,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C002-T0036",
+      "date": "2026-05-06",
+      "amount": -650.0,
+      "merchant": "HomeEquity Bank",
+      "category": "loan_payment",
+      "channel": "ach",
+      "description": "HomeEquity Bank"
+    },
+    {
+      "id": "C002-T0051",
+      "date": "2026-05-08",
+      "amount": -67.77,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C002-T0053",
+      "date": "2026-05-08",
+      "amount": -77.73,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C002-T0056",
+      "date": "2026-05-08",
+      "amount": -60.18,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C002-T0037",
+      "date": "2026-05-09",
+      "amount": -410.0,
+      "merchant": "County Property Tax",
+      "category": "housing",
+      "channel": "ach",
+      "description": "County Property Tax"
+    },
+    {
+      "id": "C002-T0042",
+      "date": "2026-05-10",
+      "amount": -77.12,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0040",
+      "date": "2026-05-11",
+      "amount": -126.21,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0059",
+      "date": "2026-05-12",
+      "amount": -86.25,
+      "merchant": "Uniqlo",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Uniqlo"
+    },
+    {
+      "id": "C002-T0062",
+      "date": "2026-05-12",
+      "amount": -243.53,
+      "merchant": "City Power & Water",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "City Power & Water"
+    },
+    {
+      "id": "C002-T0045",
+      "date": "2026-05-14",
+      "amount": -77.94,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0054",
+      "date": "2026-05-14",
+      "amount": -66.94,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C002-T0065",
+      "date": "2026-05-14",
+      "amount": -2450,
+      "merchant": "Riverside Medical Group",
+      "category": "healthcare",
+      "channel": "card",
+      "description": "Riverside Medical Group"
+    },
+    {
+      "id": "C002-T0039",
+      "date": "2026-05-15",
+      "amount": -94.71,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0046",
+      "date": "2026-05-16",
+      "amount": -97.14,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0044",
+      "date": "2026-05-17",
+      "amount": -110.54,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0063",
+      "date": "2026-05-18",
+      "amount": -85.0,
+      "merchant": "Telco Mobile",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "Telco Mobile"
+    },
+    {
+      "id": "C002-T0041",
+      "date": "2026-05-20",
+      "amount": -73.74,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C002-T0047",
+      "date": "2026-05-20",
+      "amount": -81.74,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C002-T0064",
+      "date": "2026-05-20",
+      "amount": -15.99,
+      "merchant": "StreamFlix",
+      "category": "subscriptions",
+      "channel": "card",
+      "description": "StreamFlix"
+    },
+    {
+      "id": "C002-T0050",
+      "date": "2026-05-21",
+      "amount": -23.42,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C002-T0038",
+      "date": "2026-05-24",
+      "amount": -136.35,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0048",
+      "date": "2026-05-24",
+      "amount": -20.59,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C002-T0049",
+      "date": "2026-05-24",
+      "amount": -27.43,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C002-T0060",
+      "date": "2026-05-24",
+      "amount": -70.42,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C002-T0052",
+      "date": "2026-05-25",
+      "amount": -56.57,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C002-T0066",
+      "date": "2026-05-25",
+      "amount": -1200,
+      "merchant": "HandyPro Home Repairs",
+      "category": "home_maintenance",
+      "channel": "card",
+      "description": "HandyPro Home Repairs"
+    },
+    {
+      "id": "C002-T0043",
+      "date": "2026-05-27",
+      "amount": -96.41,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0067",
+      "date": "2026-06-01",
+      "amount": 4200.0,
+      "merchant": "State Pension Fund",
+      "category": "pension",
+      "channel": "ach",
+      "description": "State Pension Fund"
+    },
+    {
+      "id": "C002-T0072",
+      "date": "2026-06-01",
+      "amount": -81.04,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0088",
+      "date": "2026-06-02",
+      "amount": -43.95,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C002-T0068",
+      "date": "2026-06-03",
+      "amount": 2300.0,
+      "merchant": "Social Security",
+      "category": "pension",
+      "channel": "ach",
+      "description": "Social Security"
+    },
+    {
+      "id": "C002-T0079",
+      "date": "2026-06-03",
+      "amount": -111.44,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C002-T0092",
+      "date": "2026-06-03",
+      "amount": -85.17,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C002-T0089",
+      "date": "2026-06-04",
+      "amount": -53.6,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C002-T0087",
+      "date": "2026-06-05",
+      "amount": -60.12,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C002-T0069",
+      "date": "2026-06-06",
+      "amount": -650.0,
+      "merchant": "HomeEquity Bank",
+      "category": "loan_payment",
+      "channel": "ach",
+      "description": "HomeEquity Bank"
+    },
+    {
+      "id": "C002-T0071",
+      "date": "2026-06-08",
+      "amount": -62.54,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0091",
+      "date": "2026-06-08",
+      "amount": -81.14,
+      "merchant": "Amazon",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Amazon"
+    },
+    {
+      "id": "C002-T0093",
+      "date": "2026-06-08",
+      "amount": -167.32,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C002-T0070",
+      "date": "2026-06-09",
+      "amount": -410.0,
+      "merchant": "County Property Tax",
+      "category": "housing",
+      "channel": "ach",
+      "description": "County Property Tax"
+    },
+    {
+      "id": "C002-T0085",
+      "date": "2026-06-09",
+      "amount": -62.43,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C002-T0074",
+      "date": "2026-06-10",
+      "amount": -80.37,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0075",
+      "date": "2026-06-10",
+      "amount": -91.07,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0095",
+      "date": "2026-06-12",
+      "amount": -213.84,
+      "merchant": "City Power & Water",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "City Power & Water"
+    },
+    {
+      "id": "C002-T0098",
+      "date": "2026-06-14",
+      "amount": -3100,
+      "merchant": "Riverside Medical Group",
+      "category": "healthcare",
+      "channel": "card",
+      "description": "Riverside Medical Group"
+    },
+    {
+      "id": "C002-T0083",
+      "date": "2026-06-16",
+      "amount": -56.04,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C002-T0082",
+      "date": "2026-06-17",
+      "amount": -60.95,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C002-T0090",
+      "date": "2026-06-17",
+      "amount": -67.49,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C002-T0096",
+      "date": "2026-06-18",
+      "amount": -85.0,
+      "merchant": "Telco Mobile",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "Telco Mobile"
+    },
+    {
+      "id": "C002-T0097",
+      "date": "2026-06-20",
+      "amount": -15.99,
+      "merchant": "StreamFlix",
+      "category": "subscriptions",
+      "channel": "card",
+      "description": "StreamFlix"
+    },
+    {
+      "id": "C002-T0073",
+      "date": "2026-06-21",
+      "amount": -119.28,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0086",
+      "date": "2026-06-21",
+      "amount": -21.26,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C002-T0078",
+      "date": "2026-06-23",
+      "amount": -62.73,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0094",
+      "date": "2026-06-23",
+      "amount": -109.16,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C002-T0076",
+      "date": "2026-06-24",
+      "amount": -52.39,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C002-T0077",
+      "date": "2026-06-25",
+      "amount": -86.58,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0099",
+      "date": "2026-06-25",
+      "amount": -1500,
+      "merchant": "HandyPro Home Repairs",
+      "category": "home_maintenance",
+      "channel": "card",
+      "description": "HandyPro Home Repairs"
+    },
+    {
+      "id": "C002-T0081",
+      "date": "2026-06-26",
+      "amount": -81.23,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C002-T0080",
+      "date": "2026-06-27",
+      "amount": -27.14,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C002-T0084",
+      "date": "2026-06-28",
+      "amount": -87.18,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C002-T0100",
+      "date": "2026-07-01",
+      "amount": 4200.0,
+      "merchant": "State Pension Fund",
+      "category": "pension",
+      "channel": "ach",
+      "description": "State Pension Fund"
+    },
+    {
+      "id": "C002-T0114",
+      "date": "2026-07-01",
+      "amount": -60.68,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C002-T0105",
+      "date": "2026-07-02",
+      "amount": -84.94,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0101",
+      "date": "2026-07-03",
+      "amount": 2300.0,
+      "merchant": "Social Security",
+      "category": "pension",
+      "channel": "ach",
+      "description": "Social Security"
+    },
+    {
+      "id": "C002-T0106",
+      "date": "2026-07-04",
+      "amount": -97.16,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0121",
+      "date": "2026-07-04",
+      "amount": -43.15,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C002-T0102",
+      "date": "2026-07-06",
+      "amount": -650.0,
+      "merchant": "HomeEquity Bank",
+      "category": "loan_payment",
+      "channel": "ach",
+      "description": "HomeEquity Bank"
+    },
+    {
+      "id": "C002-T0108",
+      "date": "2026-07-06",
+      "amount": -120.06,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0116",
+      "date": "2026-07-06",
+      "amount": -84.44,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C002-T0109",
+      "date": "2026-07-07",
+      "amount": -50.35,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0107",
+      "date": "2026-07-08",
+      "amount": -57.78,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0103",
+      "date": "2026-07-09",
+      "amount": -410.0,
+      "merchant": "County Property Tax",
+      "category": "housing",
+      "channel": "ach",
+      "description": "County Property Tax"
+    },
+    {
+      "id": "C002-T0126",
+      "date": "2026-07-10",
+      "amount": -35.31,
+      "merchant": "Amazon",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Amazon"
+    },
+    {
+      "id": "C002-T0120",
+      "date": "2026-07-12",
+      "amount": -49.25,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C002-T0128",
+      "date": "2026-07-12",
+      "amount": -195.39,
+      "merchant": "City Power & Water",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "City Power & Water"
+    },
+    {
+      "id": "C002-T0115",
+      "date": "2026-07-14",
+      "amount": -85.02,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C002-T0131",
+      "date": "2026-07-14",
+      "amount": -3750,
+      "merchant": "Riverside Medical Group",
+      "category": "healthcare",
+      "channel": "card",
+      "description": "Riverside Medical Group"
+    },
+    {
+      "id": "C002-T0110",
+      "date": "2026-07-15",
+      "amount": -91.57,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0104",
+      "date": "2026-07-17",
+      "amount": -120.07,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0118",
+      "date": "2026-07-17",
+      "amount": -87.25,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C002-T0129",
+      "date": "2026-07-18",
+      "amount": -85.0,
+      "merchant": "Telco Mobile",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "Telco Mobile"
+    },
+    {
+      "id": "C002-T0125",
+      "date": "2026-07-19",
+      "amount": -164.98,
+      "merchant": "Uniqlo",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Uniqlo"
+    },
+    {
+      "id": "C002-T0119",
+      "date": "2026-07-20",
+      "amount": -45.65,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C002-T0130",
+      "date": "2026-07-20",
+      "amount": -15.99,
+      "merchant": "StreamFlix",
+      "category": "subscriptions",
+      "channel": "card",
+      "description": "StreamFlix"
+    },
+    {
+      "id": "C002-T0111",
+      "date": "2026-07-21",
+      "amount": -84.48,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0124",
+      "date": "2026-07-21",
+      "amount": -136.89,
+      "merchant": "Uniqlo",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Uniqlo"
+    },
+    {
+      "id": "C002-T0127",
+      "date": "2026-07-24",
+      "amount": -46.84,
+      "merchant": "Amazon",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Amazon"
+    },
+    {
+      "id": "C002-T0112",
+      "date": "2026-07-25",
+      "amount": -140.46,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0132",
+      "date": "2026-07-25",
+      "amount": -1800,
+      "merchant": "HandyPro Home Repairs",
+      "category": "home_maintenance",
+      "channel": "card",
+      "description": "HandyPro Home Repairs"
+    },
+    {
+      "id": "C002-T0113",
+      "date": "2026-07-26",
+      "amount": -50.36,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C002-T0117",
+      "date": "2026-07-26",
+      "amount": -53.59,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C002-T0123",
+      "date": "2026-07-26",
+      "amount": -53.54,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C002-T0122",
+      "date": "2026-07-27",
+      "amount": -63.26,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C002-T0133",
+      "date": "2026-08-01",
+      "amount": 4200.0,
+      "merchant": "State Pension Fund",
+      "category": "pension",
+      "channel": "ach",
+      "description": "State Pension Fund"
+    },
+    {
+      "id": "C002-T0134",
+      "date": "2026-08-03",
+      "amount": 2300.0,
+      "merchant": "Social Security",
+      "category": "pension",
+      "channel": "ach",
+      "description": "Social Security"
+    },
+    {
+      "id": "C002-T0154",
+      "date": "2026-08-03",
+      "amount": -50.68,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C002-T0140",
+      "date": "2026-08-04",
+      "amount": -59.8,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0157",
+      "date": "2026-08-05",
+      "amount": -244.26,
+      "merchant": "Amazon",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Amazon"
+    },
+    {
+      "id": "C002-T0135",
+      "date": "2026-08-06",
+      "amount": -650.0,
+      "merchant": "HomeEquity Bank",
+      "category": "loan_payment",
+      "channel": "ach",
+      "description": "HomeEquity Bank"
+    },
+    {
+      "id": "C002-T0142",
+      "date": "2026-08-07",
+      "amount": -114.49,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0150",
+      "date": "2026-08-08",
+      "amount": -30.95,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C002-T0158",
+      "date": "2026-08-08",
+      "amount": -185.85,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C002-T0136",
+      "date": "2026-08-09",
+      "amount": -410.0,
+      "merchant": "County Property Tax",
+      "category": "housing",
+      "channel": "ach",
+      "description": "County Property Tax"
+    },
+    {
+      "id": "C002-T0151",
+      "date": "2026-08-09",
+      "amount": -58.4,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C002-T0160",
+      "date": "2026-08-10",
+      "amount": -54.66,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C002-T0159",
+      "date": "2026-08-11",
+      "amount": -126.55,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C002-T0145",
+      "date": "2026-08-12",
+      "amount": -140.12,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0161",
+      "date": "2026-08-12",
+      "amount": -258.93,
+      "merchant": "City Power & Water",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "City Power & Water"
+    },
+    {
+      "id": "C002-T0139",
+      "date": "2026-08-13",
+      "amount": -133.22,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C002-T0164",
+      "date": "2026-08-14",
+      "amount": -4400,
+      "merchant": "Riverside Medical Group",
+      "category": "healthcare",
+      "channel": "card",
+      "description": "Riverside Medical Group"
+    },
+    {
+      "id": "C002-T0138",
+      "date": "2026-08-15",
+      "amount": -61.41,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C002-T0147",
+      "date": "2026-08-17",
+      "amount": -80.61,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C002-T0162",
+      "date": "2026-08-18",
+      "amount": -85.0,
+      "merchant": "Telco Mobile",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "Telco Mobile"
+    },
+    {
+      "id": "C002-T0137",
+      "date": "2026-08-19",
+      "amount": -83.85,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0153",
+      "date": "2026-08-19",
+      "amount": -61.83,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C002-T0143",
+      "date": "2026-08-20",
+      "amount": -111.28,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0163",
+      "date": "2026-08-20",
+      "amount": -15.99,
+      "merchant": "StreamFlix",
+      "category": "subscriptions",
+      "channel": "card",
+      "description": "StreamFlix"
+    },
+    {
+      "id": "C002-T0152",
+      "date": "2026-08-22",
+      "amount": -68.94,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C002-T0144",
+      "date": "2026-08-24",
+      "amount": -115.76,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C002-T0148",
+      "date": "2026-08-24",
+      "amount": -76.3,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C002-T0165",
+      "date": "2026-08-25",
+      "amount": -2100,
+      "merchant": "HandyPro Home Repairs",
+      "category": "home_maintenance",
+      "channel": "card",
+      "description": "HandyPro Home Repairs"
+    },
+    {
+      "id": "C002-T0146",
+      "date": "2026-08-26",
+      "amount": -46.24,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C002-T0155",
+      "date": "2026-08-26",
+      "amount": -52.5,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C002-T0156",
+      "date": "2026-08-26",
+      "amount": -42.58,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C002-T0149",
+      "date": "2026-08-27",
+      "amount": -67.62,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C002-T0141",
+      "date": "2026-08-28",
+      "amount": -80.11,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C002-T0166",
+      "date": "2026-09-01",
+      "amount": 4200.0,
+      "merchant": "State Pension Fund",
+      "category": "pension",
+      "channel": "ach",
+      "description": "State Pension Fund"
+    },
+    {
+      "id": "C002-T0177",
+      "date": "2026-09-01",
+      "amount": -125.73,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C002-T0189",
+      "date": "2026-09-01",
+      "amount": -52.09,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C002-T0179",
+      "date": "2026-09-02",
+      "amount": -53.77,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C002-T0167",
+      "date": "2026-09-03",
+      "amount": 2300.0,
+      "merchant": "Social Security",
+      "category": "pension",
+      "channel": "ach",
+      "description": "Social Security"
+    },
+    {
+      "id": "C002-T0176",
+      "date": "2026-09-05",
+      "amount": -92.8,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0168",
+      "date": "2026-09-06",
+      "amount": -650.0,
+      "merchant": "HomeEquity Bank",
+      "category": "loan_payment",
+      "channel": "ach",
+      "description": "HomeEquity Bank"
+    },
+    {
+      "id": "C002-T0191",
+      "date": "2026-09-07",
+      "amount": -224.63,
+      "merchant": "Uniqlo",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Uniqlo"
+    },
+    {
+      "id": "C002-T0184",
+      "date": "2026-09-08",
+      "amount": -57.3,
+      "merchant": "Cafe Uno",
+      "category": "dining",
+      "channel": "card",
+      "description": "Cafe Uno"
+    },
+    {
+      "id": "C002-T0199",
+      "date": "2026-09-08",
+      "amount": -9500.0,
+      "merchant": "Branch Cash Withdrawal",
+      "category": "cash_withdrawal",
+      "channel": "cash",
+      "description": "Branch Cash Withdrawal"
+    },
+    {
+      "id": "C002-T0169",
+      "date": "2026-09-09",
+      "amount": -410.0,
+      "merchant": "County Property Tax",
+      "category": "housing",
+      "channel": "ach",
+      "description": "County Property Tax"
+    },
+    {
+      "id": "C002-T0172",
+      "date": "2026-09-09",
+      "amount": -64.28,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0180",
+      "date": "2026-09-09",
+      "amount": -69.73,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C002-T0193",
+      "date": "2026-09-09",
+      "amount": -193.73,
+      "merchant": "Target",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Target"
+    },
+    {
+      "id": "C002-T0200",
+      "date": "2026-09-10",
+      "amount": -9200.0,
+      "merchant": "Branch Cash Withdrawal",
+      "category": "cash_withdrawal",
+      "channel": "cash",
+      "description": "Branch Cash Withdrawal"
+    },
+    {
+      "id": "C002-T0194",
+      "date": "2026-09-12",
+      "amount": -226.42,
+      "merchant": "City Power & Water",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "City Power & Water"
+    },
+    {
+      "id": "C002-T0201",
+      "date": "2026-09-12",
+      "amount": -9800.0,
+      "merchant": "Branch Cash Withdrawal",
+      "category": "cash_withdrawal",
+      "channel": "cash",
+      "description": "Branch Cash Withdrawal"
+    },
+    {
+      "id": "C002-T0174",
+      "date": "2026-09-13",
+      "amount": -131.95,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C002-T0185",
+      "date": "2026-09-13",
+      "amount": -77.14,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C002-T0192",
+      "date": "2026-09-13",
+      "amount": -209.44,
+      "merchant": "Uniqlo",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Uniqlo"
+    },
+    {
+      "id": "C002-T0197",
+      "date": "2026-09-14",
+      "amount": -5050,
+      "merchant": "Riverside Medical Group",
+      "category": "healthcare",
+      "channel": "card",
+      "description": "Riverside Medical Group"
+    },
+    {
+      "id": "C002-T0173",
+      "date": "2026-09-15",
+      "amount": -138.95,
+      "merchant": "FreshMart",
+      "category": "groceries",
+      "channel": "card",
+      "description": "FreshMart"
+    },
+    {
+      "id": "C002-T0187",
+      "date": "2026-09-15",
+      "amount": -55.71,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C002-T0171",
+      "date": "2026-09-17",
+      "amount": -71.87,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0182",
+      "date": "2026-09-18",
+      "amount": -43.15,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C002-T0195",
+      "date": "2026-09-18",
+      "amount": -85.0,
+      "merchant": "Telco Mobile",
+      "category": "utilities",
+      "channel": "ach",
+      "description": "Telco Mobile"
+    },
+    {
+      "id": "C002-T0196",
+      "date": "2026-09-20",
+      "amount": -15.99,
+      "merchant": "StreamFlix",
+      "category": "subscriptions",
+      "channel": "card",
+      "description": "StreamFlix"
+    },
+    {
+      "id": "C002-T0186",
+      "date": "2026-09-21",
+      "amount": -67.45,
+      "merchant": "Chevron",
+      "category": "transport",
+      "channel": "card",
+      "description": "Chevron"
+    },
+    {
+      "id": "C002-T0188",
+      "date": "2026-09-21",
+      "amount": -45.32,
+      "merchant": "Shell",
+      "category": "transport",
+      "channel": "card",
+      "description": "Shell"
+    },
+    {
+      "id": "C002-T0183",
+      "date": "2026-09-22",
+      "amount": -25.7,
+      "merchant": "Pizza Place",
+      "category": "dining",
+      "channel": "card",
+      "description": "Pizza Place"
+    },
+    {
+      "id": "C002-T0181",
+      "date": "2026-09-23",
+      "amount": -65.35,
+      "merchant": "Noodle Bar",
+      "category": "dining",
+      "channel": "card",
+      "description": "Noodle Bar"
+    },
+    {
+      "id": "C002-T0178",
+      "date": "2026-09-24",
+      "amount": -65.32,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    },
+    {
+      "id": "C002-T0190",
+      "date": "2026-09-24",
+      "amount": -155.24,
+      "merchant": "Amazon",
+      "category": "shopping",
+      "channel": "card",
+      "description": "Amazon"
+    },
+    {
+      "id": "C002-T0170",
+      "date": "2026-09-25",
+      "amount": -88.68,
+      "merchant": "Green Grocer",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Green Grocer"
+    },
+    {
+      "id": "C002-T0198",
+      "date": "2026-09-25",
+      "amount": -2400,
+      "merchant": "HandyPro Home Repairs",
+      "category": "home_maintenance",
+      "channel": "card",
+      "description": "HandyPro Home Repairs"
+    },
+    {
+      "id": "C002-T0175",
+      "date": "2026-09-26",
+      "amount": -121.38,
+      "merchant": "Costco",
+      "category": "groceries",
+      "channel": "card",
+      "description": "Costco"
+    }
+  ]
+}
